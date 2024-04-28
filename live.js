@@ -152,6 +152,15 @@ function calculateGst() {
     totalCost = Math.round(totalCost);
 
     document.getElementById('output').innerHTML = 'your bill = <span class= "text-primaryTheme fw-bold fw-16">' + cost + '</span>'
-    document.getElementById('output').innerHTML += '<br> Tax' + taxInput + '% = <span class= "text-danger fw-bold"> ' + tax.toFixed(2) + '</span>'
+    document.getElementById('output').innerHTML += '<br> Tax ' + taxInput + ' % = <span class= "text-danger fw-bold"> ' + tax.toFixed(2) + '</span>'
     document.getElementById('output').innerHTML += '<br> Total amount including Tax = <span class= "text-success fw-bold fw-16">' + totalCost + '</span>'
+}
+
+//............................Clear Button .........................................//
+
+document.getElementById("output-btn").onclick = function () {
+    document.getElementById("output").innerHTML = ""
+}
+document.getElementById("button-addon2").onclick = function () {
+    document.getElementById("inputText").innerHTML = ""
 }
