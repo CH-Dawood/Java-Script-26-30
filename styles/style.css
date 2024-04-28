@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(243, 241, 233);
+}
+
+header {
+    background-color: rgb(4, 4, 97);
+    color: white;
+}
+
+#navbar {
+    background-color: rgb(4, 4, 97);
+    color: white;
+}
+
+#OriginalNumber {
+    background-color: rgb(4, 4, 97);
+    color: white;
+}
+#outputBox{
+
+    height: 150px;
+}
+footer{
+    background-color: rgb(4, 4, 97);
+    color: white;
+}
